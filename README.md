@@ -9,9 +9,13 @@ Below shows a simple example demonstrating the functionalities of UPA.
 
 ## How to build UPA
 
-UPA is built in the same way as Apache Spark i.e., by running:
-
-`build/mvn -DskipTests -T 40 package`
+UPA is built in the same way as Apache Spark 
+Assuming that you have cloned this repo to your home directory ($HOME/UPA)
+i.e., running:
+```
+cd $HOME/UPA
+build/mvn -DskipTests -T 40 package
+```
 
 ## Running an example
 
